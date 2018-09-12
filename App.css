@@ -1,0 +1,47 @@
+body { margin: 0; padding: 0; font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;}
+
+.parentDiv {
+  display: flex;
+  align-items: center;
+}
+.right {
+ flex-grow: 1;
+}
+.left {
+  width: 300px;
+  vertical-align: top;
+  align-self: flex-start;
+  height: 100%;
+  margin: -1.5px 0 0 5px;
+}
+.hidden { visibility: hidden; }
+button {
+    margin: 10px 0 0 0;
+    color: white;
+    background: #4C8FFB;
+    border: 1px #3079ED solid;
+    font-size: 1.05em;
+    box-shadow: inset 0 1px 0 #80B0FB;
+}
+
+button:hover {
+    border: 1px #2F5BB7 solid;
+    box-shadow: 0 1px 1px #EAEAEA, inset 0 1px 0 #5A94F1;
+    background: #3F83F1;
+}
+
+.legend_hldr {
+  margin-top: -10px;
+}
+
+
+input { width: 45px; border: none; font-size: 1.05em;}
+
+td { padding: 3px; }
+td.ne { border-left: 10px solid #00e64d; border-right: 10px solid #00e64d; border-top: 1px solid #00e64d; border-bottom: 1px solid #00e64d;}
+td.se { border-left: 10px solid #fd7567; border-right: 10px solid #fd7567; border-top: 1px solid #fd7567; border-bottom: 1px solid #fd7567;}
+td.nw { border-left: 10px solid #6991fd; border-right: 10px solid #6991fd; border-top: 1px solid #6991fd; border-bottom: 1px solid #6991fd; }
+td.sw { border-left: 10px solid #fdf569; border-right: 10px solid #fdf569; border-top: 1px solid #fdf569; border-bottom: 1px solid #fdf569; }
+td.count { text-align: center; border: 1px solid #e9e9e9; }
+td.hd { background-color: #e9e9e9; font-weight: bold; }
+td.check { width: 25px; background-color: #e9e9e9;}

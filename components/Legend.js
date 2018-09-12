@@ -73,9 +73,7 @@ class Legend extends React.Component {
           </tbody>
         </table>
 
-        <button onClick={this.refreshPage}>Reload Page</button>
-
-        <p>Here is the visibility of NE {this.store.getState().nevisible}</p>
+        <button onClick={this.refreshPage}>Reload Page</button>     
       </div>
     )
   }
